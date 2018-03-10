@@ -4,6 +4,12 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+#nav {
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+}
+
    ul {
     list-style-type: none;
     margin: 0;
@@ -12,16 +18,46 @@ html {
     background-color: black;
 }
 
-li {
-    float: left;
+#nav li {
+    display: inline;
 }
 
-li a {
-    display: block;
+#nav a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#nav a.active{
+    background-color: #2196f3;
+    color: white;
+}
+
+#nav input[type=text] {
+    float: right;
+    padding: 7px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+/* Style the submit button */
+#nav button {
+    margin-right: -263px;
+  padding: 0.5px;
+  background: #2196F3;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+}
+
+#nav button:hover {
+  background: #0b7dda;
 }
 
 body {
