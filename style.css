@@ -46,8 +46,8 @@ html {
 
 /* Style the submit button */
 #nav button {
-    margin-right: -230px;
-  padding: 1.0px;
+    margin-right: -264px;
+  padding: 0.5px;
   background: #2196F3;
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
