@@ -68,6 +68,17 @@ body {
   letter-spacing: -.05rem;
 }
 
+.featurette-heading2 {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  margin-left: 105px;
+}
+
+.lead2 {
+    margin-left: 105px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -83,10 +94,17 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+    
+ .featurette-heading2 {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
+    margin-top: 7rem;
+  }
+  .featurette-heading2 {
     margin-top: 7rem;
   }
 }
