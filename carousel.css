@@ -29,10 +29,10 @@ body {
 }
 .carousel-item > img {
   position: absolute;
-  top: -20px;
+  top: 0px;
   left: 0px;
   min-width: 100%;
-  min-height: 119%;
+  min-height: 100%;
   height: 32rem;
 }
 
