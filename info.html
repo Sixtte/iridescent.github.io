@@ -7,19 +7,17 @@
     <meta name="author" content="">
     <link rel="icon" href="img/logo2.png">
 
-    <title>More Info</title>
+    <title>More info</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
-
   <body>
 
     <header>
-      <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index">Iridescent</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,13 +38,13 @@
               <a class="nav-link" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="news">News</a>
+              <a class="nav-link" href="News">news</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="facts">Facts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="info">Info</a>
+              <a class="nav-link active" href="info">Info <span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -55,22 +53,111 @@
         </div>
       </nav>
     </header>
-      
-    <!-- Begin page content -->
-    <main role="main" class="container">
-      <h1 class="mt-5">More Info</h1>
-      <p class="lead">In the coming days new content will be posted.
-            <br/>
-            <br/>
-            Please stay tuned and visit again soon!
-        </p>
-    </main>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy; Copyright 2018, Posted by: Iridescent Minds</span>
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            img/iridescent2.png<img class="first-slide" src="img/downloads-bg.png" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Iridescent</h1>
+                <p>
+                    <i>ˌɪrɪˈdɛs(ə)nt</i> <br />
+                    <br />
+                    Adjective <br />
+                    Luminous colours that seem to change when seen from different angles.<br />
+                    <br/>
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="https://twitter.com/AIexWilson" role="button">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/about.png" href="about" alt="About" width="140" height="140">
+            <h2>About Us</h2>
+            <p>Find more information about who we are and what the aim of the site is.</p>
+            <p><a class="btn btn-secondary" href="about" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/blog.png" href="blog" alt="Blog" width="140" height="140">
+            <h2>Blog</h2>
+            <p>Find more about the founder and read the first post to the site.</p>
+            <p><a class="btn btn-secondary" href="blog" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/news.png" href="news" alt="News" width="140" height="140">
+            <h2>News</h2>
+            <p>Latest updates regarding blog posts and happenings from the Iridescent Minds.</p>
+            <p><a class="btn btn-secondary" href="news" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Check out the latest release. <span class="text-muted">No Rest for the Wicked.</span></h2>
+            <p class="lead">Though released a while ago this piece really brings together the pan/crop style that is well known within the industry. This cinematography flows beautifully with the song choice. </p>
+          </div>
+          <div class="col-md-5">
+              <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/dthsDJUMq5g?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Intro. <span class="text-muted">Irid Minds.</span></h2>
+            <p class="lead">This is the original sample intro created using the beta logo for the team.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+              <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/4jWfokJxF5A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Push. <span class="text-muted">Re-Edit.</span></h2>
+            <p class="lead">Short snappy skate edit, created with the flare of a pan/crop.</p>
+          </div>
+          <div class="col-md-5">
+              <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/0Cn3DxiiwbA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Iridescent Minds &middot; <a href="error">Privacy</a> &middot; <a href="error">Terms</a></p>
+      </footer>
+    </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
